@@ -1,0 +1,132 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.fa, .fab, .fal, .far, .fas { line-height: unset };
+
+* {
+	padding: 0;
+	/* margin: 0; */
+}
+
+form {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0 !important;
+	background: white;
+	color: #333;
+ 	font-family: 'Raleway', sans-serif;
+}
+
+/* dims */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(75,75,75,.7);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(75,75,75,.9);
+}
+
+/** loginview.css has a unique container **/
+.container {
+	display: grid;
+  		
+  	grid-template-rows: [one] 48px [two] auto [three];
+  	grid-template-areas:
+  		"header"
+  		"body";
+  		
+  	grid-row-gap: 0;
+  	grid-column-gap: 0;
+}
+
+
+.header {
+	grid-area: header;
+	
+  font-size: 1em;
+  z-index:4;
+}
+
+.body {
+	grid-area: body;
+	
+    max-width: 800px !important;
+    font-size: 1em;
+	overflow-wrap: break-word;
+	margin: auto;
+    width: -webkit-fill-available;
+}
+
+/** Inactive **/
+.footer {
+	grid-area: footer;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background: #dbdbdb;
+}
+
+.error {
+	color: rgb(255, 53, 80);
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border: 0.5px solid grey;
+}
+
+.success {
+	color: green;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border: 0.5px solid grey;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: white;
+    color: #333;
+    position: absolute;
+    padding: 3px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: normal;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 2;
+    visibility: hidden;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 300;
+ 	width: 250px;
+}
+
+[data-title] {
+    position: relative;
+}

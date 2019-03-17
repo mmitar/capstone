@@ -1,0 +1,55 @@
+.container-login .body {
+	max-width: unset !important;
+}
+
+.container-login {
+	display: grid;
+	grid-template-rows: [one] auto [two];
+	grid-template-areas: "body";
+	grid-row-gap: 0;
+	grid-column-gap: 0;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  order: 0;
+  padding: 0 20px;
+  height: 95vh;
+}
+
+.login-features {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+  padding: 40px;
+  background: #333;
+  color: #eee;
+  
+}
+
+@media all and (min-width: 800px)
+{
+	.login-page {
+		flex-direction: row;
+		height: 100vh;
+	}
+	
+	.login-form {
+		order: 2;
+  		width: 40%;
+  		min-width: 360px;
+	}
+	
+	.feature-content {
+		overflow: scroll;
+	}
+}
