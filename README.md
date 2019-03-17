@@ -1,5 +1,9 @@
 # Dream Stream Documentation Demo
 
+### Table of Contents
+1. [Business Requirements](#business-requirements)
+2. [Technical Requirements](#technical-requirements)
+
 AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
 ___
