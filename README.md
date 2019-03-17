@@ -1,24 +1,56 @@
-# Dream Stream Documentation & Architecture
+# Dream Stream Documentation Demo
 
-AWS website 
-### [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)
-View all the Javadocumentation [here](https://mmitar.github.io/capstone/)
+AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)
+View all the Java documentation [here](https://mmitar.github.io/capstone/)
+___
+### Milestone App Review
+Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
 
-#### try-block
-Call UserBusinessService.findBy() to see if user exists
+##### Business Requirements
+* Monitor user activity on the application
+* Monitor liquor activity via Arduino Embedded System
+* Notify vendors for liquor use violations
+* Configure Spouts to Liquor association
+* Consume data and provide reporting for locations and vendors
+* Vendors can add locations
+* Vendors can modify locations they oversee
+* Vendors can add users to locations
+* Location managers can implement all CRUD methods on liquor for inventory management
+* Accessible from all access points
+* Secure Login with permission-based actions
+
+Technical Requirements | |
+--- | ---
+AWS Elastic Beanstalk | Spring MVC Framekwork 3.0 |
+Dynamic Web Application Framework 3.1 | Eclipse Oxygen IDE 3.0 |
+JDK Compile Environment 1.8 | Tomcat Server 8.5 |
+Java 8 | MySQL DB Connector Library for Java 5.1 |
+Spring JDBC 4.3 | JAX-RS JSON provider 2.4 |
+Servlet REST API 2.3 | JUnit Testing 4.12 |
+SLF4J 1.7 / LOG4J 1.2 | MAMP |
+MySQL Workbench | AWS Cloud Platform |
+HTML / CSS / JavaScript 5.0 | JQuery 3.3 |
+SVG | JSTL 1.2 |
+Tiles 3.0 | Arduino Uno Elegoo |
+ESP8266 Wifi Module | HX711 Load Scale Module |
+Google Charting API | 
+
+##### try-block
+Controller requests are encapsulated in a try-catch block to support custom exception handling used to enforce rules from the business layer.
 ```java
 try {
 	User verifiedUser = userService.authenticateUser(user);
 }
 ```
-#### throw-exception
+##### throw-exception
+The business layer enforces logic that identifys if the data access layer returned a valid user based on the credentials.
 ```java
 if(userDAO.find(user) == null) {
     throw new UserNotFoundException();
 }
 ```
-
-#### catch-block
+##### catch-block
+If an exception is thrown from the business layer, the controller will catch the exception, and can tailor a proper response for the user.
 ```java
 catch(UserNotFoundException e) {
 	ModelAndView mv = new ModelAndView("login");
@@ -26,7 +58,7 @@ catch(UserNotFoundException e) {
 	return mv;
 }
 ```
-  
+
 ### Sequence Diagram
 ![Arduino Action Reporting Sequence Diagram](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Arduino%20Sequence%20Diagram.png)
 
@@ -59,4 +91,3 @@ catch(UserNotFoundException e) {
 
 ### Deployment Diagram
 ![Deployment Diagram](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/deployment%20diagram.JPG?raw=true)
-
