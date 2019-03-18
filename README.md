@@ -1,36 +1,21 @@
-# Dream Stream Documentation Demo
+# The Dream Stream Documentation Development
 
-### Table of Contents
+
+## Milestone App Review
+Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
+
+AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
+View all the Java documentation [here](https://mmitar.github.io/capstone/)
+
+## Table of Contents
 1. [Application Requirements](#application-requirements)
-	* [Business Requirements](#business-requirements)
 	* [Functional Requirements](#functional-requirements)
 	* [Non-Functional Requirements](#non-functional-requirements)
 2. [Application Architecture](#application-architecture)
 3. [Database Design](#database-design)
 4. [Deployment Architecture](#deployment-architecture)
 
-AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
-View all the Java documentation [here](https://mmitar.github.io/capstone/)
-
----
-
-### Milestone App Review
-Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
-
 ## Application Requirements
-
-### Business Requirements
-* Monitor user activity on the application
-* Monitor liquor activity via Arduino Embedded System
-* Notify vendors for liquor use violations
-* Configure Spouts to Liquor association
-* Consume data and provide reporting for locations and vendors
-* Vendors can add locations
-* Vendors can modify locations they oversee
-* Vendors can add users to locations
-* Location managers can implement all CRUD methods on liquor for inventory management
-* Accessible from all access points
-* Secure Login with permission-based actions
 
 ### Functional Requirements
 | | |
@@ -50,9 +35,17 @@ ESP8266 Wifi Module | HX711 Load Scale Module |
 Google Charting API | REST APIs
 
 ### Non-Functional Requirements
-
-| ... TBA | |
-| --- | --- |
+* Monitor user activity on the application
+* Monitor liquor activity via Arduino Embedded System
+* Notify vendors for liquor use violations
+* Configure Spouts to Liquor association
+* Consume data and provide reporting for locations and vendors
+* Vendors can add locations
+* Vendors can modify locations they oversee
+* Vendors can add users to locations
+* Location managers can implement all CRUD methods on liquor for inventory management
+* Accessible from all access points
+* Secure Login with permission-based actions
 
 #### Sequence Diagram
 ![Arduino Action Reporting Sequence Diagram](https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png?raw=true)
