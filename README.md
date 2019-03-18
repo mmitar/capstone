@@ -78,7 +78,7 @@ try {
 The business layer enforces logic that identifys if the data access layer returned a valid user based on the credentials.
 ```java
 if(userDAO.find(user) == null) {
-    throw new UserNotFoundException();
+	throw new UserNotFoundException();
 }
 ```
 #### catch-block
