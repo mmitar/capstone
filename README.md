@@ -1,11 +1,13 @@
 # Dream Stream Documentation Demo
 
 ### Table of Contents
-1. [Business Requirements](#business-requirements)
-2. [Technical Requirements](#technical-requirements)
-3. [Application Architecture](#application-architecture)
-4. [Database Design](#database-design)
-5. [Deployment Architecture](#deployment-architecture)
+1. [Application Requirements](#application-requirements)
+	* [Business Requirements](#business-requirements)
+	* [Functional Requirements](#functional-requirements)
+	* [Non-Functional Requirements](#non-functional-requirements)
+2. [Application Architecture](#application-architecture)
+3. [Database Design](#database-design)
+4. [Deployment Architecture](#deployment-architecture)
 
 AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
@@ -14,6 +16,8 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 ### Milestone App Review
 Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
+
+## Application Requirements
 
 ### Business Requirements
 * Monitor user activity on the application
@@ -28,7 +32,7 @@ Watch the latest review of the application on Youtube [here](https://www.youtube
 * Accessible from all access points
 * Secure Login with permission-based actions
 
-#### Technical Requirements
+### Functional Requirements
 | | |
 | --- | --- |
 AWS Elastic Beanstalk | Spring MVC Framekwork 3.0 |
@@ -43,7 +47,12 @@ HTML / CSS / JavaScript 5.0 | JQuery 3.3 |
 SVG | JSTL 1.2 |
 Tiles 3.0 | Arduino Uno Elegoo |
 ESP8266 Wifi Module | HX711 Load Scale Module |
-Google Charting API | 
+Google Charting API | REST APIs
+
+### Non-Functional Requirements
+
+| ... TBA | |
+| --- | --- |
 
 #### Sequence Diagram
 ![Arduino Action Reporting Sequence Diagram](https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png?raw=true)
@@ -51,36 +60,35 @@ Google Charting API |
 #### Block Diagram
 ![Block Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png?raw=true)
 
-### Application Architecture
----
+## Application Architecture
 
-#### Logical Design
+### Logical Design
 ![Logical Design](https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG?raw=true)
 
-#### Physical Design
+### Physical Design
 ![Physical Design](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG?raw=true)
 
-#### Deployment Diagram
+### Deployment Diagram
 ![Deployment Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG?raw=true)
 
-#### Component Diagram
+### Component Diagram
 ![Component Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png?raw=true)
 
-##### try-block
+#### try-block
 Controller requests are encapsulated in a try-catch block to support custom exception handling used to enforce rules from the business layer.
 ```java
 try {
 	User verifiedUser = userService.authenticateUser(user);
 }
 ```
-##### throw-exception
+#### throw-exception
 The business layer enforces logic that identifys if the data access layer returned a valid user based on the credentials.
 ```java
 if(userDAO.find(user) == null) {
     throw new UserNotFoundException();
 }
 ```
-##### catch-block
+#### catch-block
 If an exception is thrown from the business layer, the controller will catch the exception, and can tailor a proper response for the user.
 ```java
 catch(UserNotFoundException e) {
@@ -94,7 +102,7 @@ catch(UserNotFoundException e) {
 ### Manifest Deployment
 ![Manifest Deployment](https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG?raw=true)
 
-#### Class UML Diagrams
+### Class UML Diagrams
 ![Class Diagrams](https://github.com/mmitar/capstone/blob/master/docs/images/Class%20Diagrams.png?raw=true)
 
 
@@ -104,8 +112,8 @@ catch(UserNotFoundException e) {
 ### Wireframes
 ![Wireframes](https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png?raw=true)
 
-### Database Design
+## Database Design
 
-#### ER Diagram
+### ER Diagram
 ![ER Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/ER%20Diagram.JPG?raw=true)
 
