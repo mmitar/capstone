@@ -64,7 +64,7 @@ catch(UserNotFoundException e) {
 ```
 
 ### Sequence Diagram
-![Arduino Action Reporting Sequence Diagram](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Arduino%20Sequence%20Diagram.png)
+![Arduino Action Reporting Sequence Diagram](https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png?raw=true)
 
 ### Block Diagram
 ![Block Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png?raw=true)
@@ -76,22 +76,22 @@ catch(UserNotFoundException e) {
 ![Component Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png?raw=true)
  
 ### ER Diagram
-![ER Diagram](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/ER%20Diagram.JPG?raw=true)
+![ER Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/ER%20Diagram.JPG?raw=true)
 
 ### Logical Design
 ![Logical Design](https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG?raw=true)
 
 ### Manifest Deployment
-![Manifest Deployment](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Manifest%20Deployment.JPG?raw=true)
+![Manifest Deployment](https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG?raw=true)
 
 ### Physical Design
 ![Physical Design](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG?raw=true)
 
 ### Sitemap
-![Sitemap](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Sitemap.png?raw=true)
+![Sitemap](https://github.com/mmitar/capstone/blob/master/docs/images/Sitemap.png?raw=true)
 
 ### Wireframes
-![Wireframes](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Wireframes.png?raw=true)
+![Wireframes](https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png?raw=true)
 
 ### Deployment Diagram
-![Deployment Diagram](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/deployment%20diagram.JPG?raw=true)
+![Deployment Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG?raw=true)
