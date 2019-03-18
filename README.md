@@ -10,7 +10,7 @@ ___
 ### Milestone App Review
 Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
 
-##### Business Requirements
+### Business Requirements
 * Monitor user activity on the application
 * Monitor liquor activity via Arduino Embedded System
 * Notify vendors for liquor use violations
@@ -23,8 +23,9 @@ Watch the latest review of the application on Youtube [here](https://www.youtube
 * Accessible from all access points
 * Secure Login with permission-based actions
 
-Technical Requirements | |
---- | ---
+### Technical Requirements
+| | |
+| --- | --- |
 AWS Elastic Beanstalk | Spring MVC Framekwork 3.0 |
 Dynamic Web Application Framework 3.1 | Eclipse Oxygen IDE 3.0 |
 JDK Compile Environment 1.8 | Tomcat Server 8.5 |
