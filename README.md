@@ -48,24 +48,25 @@ Google Charting API | REST APIs
 * Secure Login with permission-based actions
 
 #### Sequence Diagram
-![Arduino Action Reporting Sequence Diagram](https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png?raw=true)
+![Arduino Action Reporting Sequence Diagram]
+<p align="center"><img src="https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png" width="700"/></p>
 
 #### Block Diagram
-![Block Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png" width="700"/></p>
 
 ## Application Architecture
 
 ### Logical Design
-![Logical Design](https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG" width="700"/></p>
 
 ### Physical Design
-![Physical Design](https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG?raw=true)
+<p align="center"><img src="https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG" width="700"/></p>
 
 ### Deployment Diagram
-![Deployment Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG" width="700"/></p>
 
 ### Component Diagram
-![Component Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png" width="700"/></p>
 
 #### try-block
 Controller requests are encapsulated in a try-catch block to support custom exception handling used to enforce rules from the business layer.
@@ -93,20 +94,21 @@ catch(UserNotFoundException e) {
 
 
 ### Manifest Deployment
-![Manifest Deployment](https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG" width="700"/></p>
 
 ### Class UML Diagrams
-![Class Diagrams](https://github.com/mmitar/capstone/blob/master/docs/images/Class%20Diagrams.png?raw=true)
-
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Class%20Diagrams.png" width="700"/></p>
 
 ### Sitemap
-![Sitemap](https://github.com/mmitar/capstone/blob/master/docs/images/Sitemap.png?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Sitemap.png" width="700"/></p>
 
 ### Wireframes
-![Wireframes](https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png" width="700"/></p>
 
 ## Database Design
 
+This database design meets our application's solution for the essesntial related table categories together. This ensures that data cannot be inserted into the database without containing verifying details that relate it to its depedent key. Users were designed to be independent, existing with or without a relationship to locations. This is because both vendors are location managers / users are combined, seperated by their permission role and status.
+
 ### ER Diagram
-![ER Diagram](https://github.com/mmitar/capstone/blob/master/docs/images/ER%20Diagram.JPG?raw=true)
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/ER%20Diagram.JPG" width="700"/></p>
 
