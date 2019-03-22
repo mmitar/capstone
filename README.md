@@ -48,25 +48,24 @@ Google Charting API | REST APIs
 * Secure Login with permission-based actions
 
 #### Sequence Diagram
-![Arduino Action Reporting Sequence Diagram]
-<p align="center"><img src="https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob//master/docs/images/Arduino%20Sequence%20Diagram.png"/></p>
 
 #### Block Diagram
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Block%20Diagram.png"/></p>
 
 ## Application Architecture
 
 ### Logical Design
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Logical%20Design.JPG" width="500"/></p>
 
 ### Physical Design
-<p align="center"><img src="https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG" width="700"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/mmitar/capstone/master/docs/images/Phyisical%20Design.JPG" width="600"/></p>
 
 ### Deployment Diagram
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/deployment%20diagram.JPG" width="600"/></p>
 
 ### Component Diagram
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Component%20Diagram.png"/></p>
 
 #### try-block
 Controller requests are encapsulated in a try-catch block to support custom exception handling used to enforce rules from the business layer.
@@ -94,16 +93,16 @@ catch(UserNotFoundException e) {
 
 
 ### Manifest Deployment
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Manifest%20Deployment.JPG" width="800"/></p>
 
 ### Class UML Diagrams
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Class%20Diagrams.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Class%20Diagrams.png"/></p>
 
 ### Sitemap
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Sitemap.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Sitemap.png" width="500"/></p>
 
 ### Wireframes
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png" width="700"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/docs/images/Wireframes.png" width="800"/></p>
 
 ## Database Design
 
