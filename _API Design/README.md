@@ -19,8 +19,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 # Dream Stream - Log Scale Action
-
-Used to collect data from load scale
+This API is used for collecting data from the Load scale that is connected to are arduino. The Arduino sends a POSTs, whenever in action is taken on any scale. The data sent is what we keep our inventory updated with and along with updating our analytics data.
 
 **URL** : `/rest/inventory/logScale`
 
