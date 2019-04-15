@@ -16,4 +16,16 @@
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
+## Locical-Design
+#### N-layer
+<p align="center"><img src=""/></p>
+
+## Physical-Design
+#### 1-Tier
+<p align="center"><img src=""/></p>
+
+#### 3-Tier
+<p align="center"><img src=""/></p>
+
+
 Back to [Table of Contents](#Table-of-Contents)
