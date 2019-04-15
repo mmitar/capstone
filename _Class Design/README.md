@@ -16,6 +16,6 @@
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Class%20Diagram.png"/></p>
 
 #### Component-Diagram
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Component.png"/></p>
 
 Back to [Table of Contents](#Table-of-Contents)
