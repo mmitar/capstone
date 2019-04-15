@@ -7,8 +7,8 @@
 	* [Logical Design](#logical-design)
 		* [N-Layer Architecture](#N-Layer-Local-Design)
 	* [Physical Design](#physical-design)
-		* [1-Tier Architecture](#1-Tier-Architeceture-Physical-Design)
-		* [3-Tier Architecture](#3-Tier-Architeceture-Physical-Design)
+		* [1-Tier Architecture](#1-Tier-Architecture-Physical-Design)
+		* [3-Tier Architecture](#3-Tier-Architecture-Physical-Design)
 	* [UML Deployment Design](#Deployment-Design)
 3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
@@ -17,14 +17,14 @@
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ## Locical-Design
-### N-layer-Architeceture-Local-Design
+### N-layer-Architecture-Local-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Layer%20Architecture.png"/></p>
 
 ## Physical-Design
-### 1-Tier-Architeceture-Physical-Design
+### 1-Tier-Architecture-Physical-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%201%20Architecture.png"/></p>
 
-### 1-Tier-Architeceture-Physical-Design
+### 1-Tier-Architecture-Physical-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%203%20Architecture.png"/></p>
 
 #### Deployment-Design
