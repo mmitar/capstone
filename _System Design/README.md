@@ -1,14 +1,7 @@
-# The Dream Stream Documentation Development
-
-
-## Milestone App Review
-Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
-
-AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
-View all the Java documentation [here](https://mmitar.github.io/capstone/)
+# System Design
 
 ## Table of Contents
-[Root Directory](https://github.com/mmitar/capstone)
+[Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
 2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 	* [Logical Design](#logical-design)
