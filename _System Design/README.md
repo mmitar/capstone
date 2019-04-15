@@ -1,4 +1,4 @@
-# System Design
+# [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 
 ## Table of Contents
 [Home Directory](https://github.com/mmitar/capstone)
@@ -27,7 +27,7 @@
 ### 1-Tier-Architecture-Physical-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%203%20Architecture.png"/></p>
 
-#### Deployment-Design
+### Deployment-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/Deployment%20Diagram.png">
 
 
