@@ -1,7 +1,7 @@
 # [Other Design Documentation](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ## Table of Contents
-[Root Directory](https://github.com/mmitar/capstone)
+[Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
 2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
