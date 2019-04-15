@@ -1,6 +1,6 @@
 # API Design Documentation
 
-## Table of Contents 
+#### Table of Contents 
 [Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
 2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
@@ -131,3 +131,4 @@ Connection: close
 
 {"locationId":"location1","scaleId":0,"logQuantity":35}
 ```
+Back to [Table of Contents](#Table-of-Contents)
