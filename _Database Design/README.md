@@ -14,7 +14,7 @@
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 #### ER-Diagram
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
 #### DDL-Script
 <p align="center"><img src=""/></p
