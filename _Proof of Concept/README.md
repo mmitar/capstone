@@ -9,6 +9,7 @@ AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeansta
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 ## Table of Contents
+[Root Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)
 	* [Description of Problem](#functional-requirements)
 	* [OutcomeofPOC](#non-functional-requirements)
