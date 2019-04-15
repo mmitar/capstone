@@ -29,7 +29,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Sitemap.png"/></p>
 
 #### Wireframe
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Wireframes.png"/></p>
 
 #### Logical
 <p align="center"><img src=""/></p>
