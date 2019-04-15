@@ -22,7 +22,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 Used to collect data from load scale
 
-**URL** : `/api/login/`
+**URL** : `/rest/inventory/logScale`
 
 **Method** : `POST`
 
@@ -33,8 +33,8 @@ Used to collect data from load scale
 ```json
 {
     "locationId": "[Valid Location that also is paired with Scale ID]",
-    "scaleId": [Scale ID that matches with location ID],
-    "logQuantity": [valid log quantity]
+    "scaleId": "[Scale ID that matches with location ID]",
+    "logQuantity": "[valid log quantity]"
 }
 ```
 
@@ -48,9 +48,9 @@ Used to collect data from load scale
 }
 ```
 
-## 200 Success Response
+## 201 Success Response
 
-**Code** : `200 OK`
+**Code** : `201 CREATED`
 
 **Content example**
 
@@ -61,11 +61,24 @@ Used to collect data from load scale
 }
 ```
 
-## 400 Error Response
+## 208 Error Response
+
+**Code** : `208 ALREADY REPORTED`
+
+**Content example**
+
+```json
+{
+    "signal": "GREEN",
+    "message": "Log quantity insufficient to retain"
+}
+```
+
+## 404 Error Response
 
 **Condition** : If scale does not appear to be registered to the location.
 
-**Code** : `400 BAD REQUEST`
+**Code** : `404 NOT FOUND`
 
 **Content** :
 
@@ -76,11 +89,11 @@ Used to collect data from load scale
 }
 ```
 
-## 400Error Response
+## 409 Error Response
 
 **Condition** : If liquor is not associated to the scale.
 
-**Code** : `400 BAD REQUEST`
+**Code** : `409 CONFLILCT`
 
 **Content** :
 
@@ -95,7 +108,7 @@ Used to collect data from load scale
 
 **Condition** : If there is no connection to server.
 
-**Code** : `500 FATAL ERROR`
+**Code** : `500 INTERNAL SERVER ERROR`
 
 **Content** :
 
