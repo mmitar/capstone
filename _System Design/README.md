@@ -9,7 +9,7 @@
 	* [Physical Design](#physical-design)
 		* [1-Tier Architecture](#1-Tier)
 		* [3-Tier Architecture](#3-Tier)
-	* [UML Deployment Design](#deployment-design)
+	* [UML Deployment Design](#Deployment-Design)
 3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
 5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
@@ -26,6 +26,9 @@
 
 #### 3-Tier
 <p align="center"><img src=""/></p>
+
+#### Deployment-Design
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/Deployment%20Diagram.png">
 
 
 Back to [Table of Contents](#Table-of-Contents)
