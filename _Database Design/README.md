@@ -14,5 +14,9 @@
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 #### ER-Diagram
+<p align="center"><img src=""/></p>
 
 #### DDL-Script
+<p align="center"><img src=""/></p
+
+Back to [Table of Contents](#Table-of-Contents)
