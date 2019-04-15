@@ -15,15 +15,20 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
 5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
-	* [Flowchart Design](#Flowchart)
+	* [Application-Flowchart Design](#Application-Flowchart)
+	* [Scale-Flowchart Design](#Scale-Flowchart)
 	* [Sitemap Design](#Sitemap)
 	* [UI Wireframe Design](#Wireframe)
-	* [Logical Design](#Logical)
+	* [Sequence Diagram Design](#Sequence-Diagram)
+	* [Block Diagram Design](#Block-Diagram)
+	* [Use Case Diagram Design](#Use Case-Diagram)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-#### Flowchart
+#### Application-Flowchart
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/App%20Flowchart.png"/></p>
 
+#### Scale-Flowchart
+<p align="center"><img src=""/></p>
 
 #### Sitemap
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Sitemap.png"/></p>
@@ -31,6 +36,14 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 #### Wireframe
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Wireframes.png"/></p>
 
-#### Logical
+#### Sequence-Diagram
 <p align="center"><img src=""/></p>
+
+#### Block-Diagram
+<p align="center"><img src=""/></p>
+
+#### SUse Case-Diagram
+<p align="center"><img src=""/></p>
+
+
 
