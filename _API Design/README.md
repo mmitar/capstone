@@ -41,7 +41,7 @@ Used to collect data from load scale
 | ------ | ------ |
 | locationId | Is an uniquely random generated value that represents a location of a resturant |
 | scaleId | Is a unique index value from 0-5 that represent the scales value|
-| logQuantity | Is a number that represents the amount of volume in milliliters removed from the bottle\ from when the bottle is removed then placed back on the scale|
+| logQuantity | Is a number that represents the amount of volume in milliliters removed from the bottle from when the bottle is removed then placed back on the scale|
 
 **Data example**
 
@@ -68,7 +68,7 @@ Used to collect data from load scale
 
 ## 208 Error Response
 
-**Condition** : If the arduino sends a POSTs from  the scale and the quanity difference is zero,\ it will give a 208 response
+**Condition** : If the arduino sends a POSTs from  the scale and the quanity difference is zero, it will give a 208 response
 letting the user know that there was no  difference in volume on this call.
 
 **Code** : `208 ALREADY REPORTED`
@@ -84,7 +84,7 @@ letting the user know that there was no  difference in volume on this call.
 
 ## 404 Error Response
 
-**Condition** : Each scale must be registered to a location before it can be used.\ If the arduino tries to send a POST, the while the
+**Condition** : Each scale must be registered to a location before it can be used. If the arduino tries to send a POST, the while the
 scale isnot registered, it will send a 404 error response.
 
 **Code** : `404 NOT FOUND`
@@ -100,7 +100,7 @@ scale isnot registered, it will send a 404 error response.
 
 ## 409 Error Response
 
-**Condition** : If is scaleis registered to a location but not a liquor, it will send a 409 error reponse\ because it does not know which liquor in the inventory to update with the data sent.
+**Condition** : If is scaleis registered to a location but not a liquor, it will send a 409 error reponse because it does not know which liquor in the inventory to update with the data sent.
 
 **Code** : `409 CONFLILCT`
 
