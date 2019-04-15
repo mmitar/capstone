@@ -21,7 +21,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 	* [UI Wireframe Design](#Wireframe-Diagram)
 	* [Sequence Diagram Design](#Sequence-Diagram)
 	* [Block Diagram Design](#Block-Diagram)
-	* [Use Case Diagram Design](#Use Case-Diagram)
+	* [Use Case Diagram Design](#Use-Case-Diagram)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 #### Application-Flowchart
@@ -42,7 +42,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 #### Block-Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Block%20Diagram.png"/></p>
 
-#### Use Case-Diagram
+#### Use-Case-Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Use%20Case.png"/></p>
 
 
