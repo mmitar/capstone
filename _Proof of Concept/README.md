@@ -1,12 +1,4 @@
-# The Dream Stream Documentation Development
-# The Dream Stream Documentation Development
-
-
-## Milestone App Review
-Watch the latest review of the application on Youtube [here](https://www.youtube.com/embed/3njvE3QVbVk). 
-
-AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
-View all the Java documentation [here](https://mmitar.github.io/capstone/)
+# Proof of Concept
 
 ## Table of Contents
 [Root Directory](https://github.com/mmitar/capstone)
