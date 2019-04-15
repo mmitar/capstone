@@ -121,15 +121,15 @@ Used to collect data from load scale
 
 ## Sample Call
 
-POST /rest/inventory/logScale HTTP/1.1
-Host: thedreamstream.us-east-2.elasticbeanstalk.com
-Content-Type: application/json
-Content-Length: 55
-Accept: application/json
-User-Agent: BuildFailureDetectorESP8266
-Cache-Control: no-cache, no-store, must-revalidate
-Pragma: no-cache
-Expires: 0
-Connection: close
+POST /rest/inventory/logScale HTTP/1.1  
+Host: thedreamstream.us-east-2.elasticbeanstalk.com  
+Content-Type: application/json  
+Content-Length: 55  
+Accept: application/json  
+User-Agent: BuildFailureDetectorESP8266  
+Cache-Control: no-cache, no-store, must-revalidate  
+Pragma: no-cache  
+Expires: 0  
+Connection: close  
 
 {"locationId":"location1","scaleId":0,"logQuantity":60}
