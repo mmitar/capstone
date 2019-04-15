@@ -18,7 +18,7 @@
 
 ## Locical-Design
 #### N-layer
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Layer%20Architecture.png"/></p>
 
 ## Physical-Design
 #### 1-Tier
