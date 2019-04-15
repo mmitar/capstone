@@ -30,11 +30,9 @@ This API is used for collecting data from the Load scale that is connected to ar
 **Data constraints**
 
 ```
-{
-    "locationId": [alphanumeric],
-    "scaleId": [integer],
-    "logQuantity": [integer]
-}
+   Required =  "locationId": [alphanumeric],
+   Required = "scaleId": [integer],
+   Required = "logQuantity": [integer]
 ```
 | Value | Explanation |
 | ------ | ------ |
@@ -129,7 +127,7 @@ scale isnot registered, it will send a 404 error response.
 
 ## Sample Call
 
-The sample call is made up of HTTP message and are used for the communication between the client and server to send data via API. It is made up of three different types of data; request header, general header and entity header. Request headers, like User-Agent, Accept-Type, modify the request by specifying it further (like Accept-Language), by giving context (like Referer), or by conditionally restricting it (like If-None). General headers, like Via, apply to the message as a whole.Entity headers, like Content-Length which apply to the body of the request. Obviously, there is no such header transmitted if there is no body in the request.
+The sample call is made up of HTTP message and are used for the communication between the client and server to send data via API. The sample call is being posted from the arduino based off the system requirements.
 
 POST /rest/inventory/logScale HTTP/1.1  
 Host: thedreamstream.us-east-2.elasticbeanstalk.com  
