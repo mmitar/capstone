@@ -1,4 +1,4 @@
-# Database Design
+# [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)
 
 
 ## Table of Contents
@@ -13,10 +13,10 @@
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-#### ER-Diagram
+### ER-Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
-#### DDL-Script
+### DDL-Script
 ```ddl
 CREATE DATABASE  IF NOT EXISTS `streamdream` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `streamdream`;
