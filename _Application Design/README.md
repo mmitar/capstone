@@ -45,5 +45,5 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 #### Use-Case-Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Use%20Case.png"/></p>
 
-
+Back to [Table of Contents](#Table-of-Contents)
 
