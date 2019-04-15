@@ -1,7 +1,7 @@
 # Proof of Concept
 
 ## Table of Contents
-[Root Directory](https://github.com/mmitar/capstone)
+[Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)
 	* [Description of Problem](#functional-requirements)
 	* [OutcomeofPOC](#non-functional-requirements)
