@@ -64,7 +64,6 @@ CREATE TABLE `spout_liquor` (
   KEY `liquorID_idx` (`liquorID`),
   CONSTRAINT `FK_LIQUORID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+```
 
-''''
-
-Back to [Table of Contents] (#Table-of-Contents)
+Back to [Table of Contents](#Table-of-Contents)
