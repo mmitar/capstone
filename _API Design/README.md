@@ -32,11 +32,16 @@ Used to collect data from load scale
 
 ```json
 {
-    "locationId": "[Valid Location that also is paired with Scale ID]",
-    "scaleId": "[Scale ID that matches with location ID]",
-    "logQuantity": "[valid log quantity]"
+    "locationId": "[alphanumeric]",
+    "scaleId": "[integer]",
+    "logQuantity": "[integer]"
 }
 ```
+| Value | Explanation |
+| ------ | ------ |
+| LocationId | Is a unique number that is generated when a new business is created |
+| scaleID | Is a unique index value from 0-5  |
+| logQuantity | Is a number that represents the amount of volume in ml removed from the bottle |
 
 **Data example**
 
