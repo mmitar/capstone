@@ -129,6 +129,7 @@ scale isnot registered, it will send a 404 error response.
 
 The sample call is made up of HTTP message and are used for the communication between the client and server to send data via API. The sample call is being posted from the arduino based off the system requirements.
 
+```
 POST /rest/inventory/logScale HTTP/1.1  
 Host: thedreamstream.us-east-2.elasticbeanstalk.com  
 Content-Type: application/json  
@@ -141,3 +142,4 @@ Expires: 0
 Connection: close  
 
 {"locationId":"location1","scaleId":0,"logQuantity":35}
+```
