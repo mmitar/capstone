@@ -21,4 +21,5 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 	* [Logical Design](#wireframe)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-##flowchart(https://github.com/mmitar/capstone/blob/master/_Application%20Design/App%20Flowchart.png)
+##flowchart
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/App%20Flowchart.png"/></p>
