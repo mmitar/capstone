@@ -1,4 +1,4 @@
-# Other Design Documentation
+# [Other Design Documentation](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ## Table of Contents
 [Root Directory](https://github.com/mmitar/capstone)
