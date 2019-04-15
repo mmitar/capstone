@@ -1,7 +1,7 @@
 # API Design Documentation
 
 ## Table of Contents 
-[Root Directory](https://github.com/mmitar/capstone)
+[Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
 2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
@@ -22,16 +22,11 @@ This API is used for collecting data from the Load scale that is connected to ar
 
 **Data constraints**
 
-```
-   Required =  "locationId": [alphanumeric],
-   Required = "scaleId": [integer],
-   Required = "logQuantity": [integer]
-```
-| Value | Explanation |
-| ------ | ------ |
-| locationId | Is an uniquely random generated value that represents a location of a resturant |
-| scaleId | Is a unique index value from 0-5 that represent the scales value|
-| logQuantity | Is a number that represents the amount of volume in milliliters removed from the bottle from when the bottle is removed then placed back on the scale|
+| Value | Required? | Data Type | Explanation |
+| ------ | ------ | ------ | ------ |
+| locationId | Yes | alphanumeric |Is an uniquely random generated value that represents a location of a resturant |
+| scaleId | Yes | integer | Is a unique index value from 0-5 that represent the scales value|
+| logQuantity | Yes | integer | Is a number that represents the amount of volume in milliliters removed from the bottle from when the bottle is removed then placed back on the scale|
 
 **Data example**
 
