@@ -22,10 +22,10 @@
 
 ## Physical-Design
 #### 1-Tier
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%201%20Architecture.png"/></p>
 
 #### 3-Tier
-<p align="center"><img src=""/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%201%20Architecture.png"/></p>
 
 #### Deployment-Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/Deployment%20Diagram.png">
