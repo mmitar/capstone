@@ -17,7 +17,7 @@
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
 #### DDL-Script
-'''json
+```ddl
 CREATE TABLE `liquors` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
   `liquorID` int(11) NOT NULL,
@@ -64,7 +64,6 @@ CREATE TABLE `spout_liquor` (
   KEY `liquorID_idx` (`liquorID`),
   CONSTRAINT `FK_LIQUORID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
 
 ''''
 
