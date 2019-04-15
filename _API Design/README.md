@@ -8,24 +8,11 @@ AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeansta
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 ## Table of Contents
-1. [Proof of Concepts](#application-requirements)
-	* [Description of Problem](#functional-requirements)
-	* [OutcomeofPOC](#non-functional-requirements)
-	* [Decisions made from POC](#non-functional-requirements)
-2. [System Design](#application-architecture)
-	* [Logical Design](#functional-requirements)
-	* [Physical Design](#non-functional-requirements)
-	* [UML Deployment Design](#non-functional-requirements)
-3. [Database Design](#database-design)
-	* [Database Dictionary](#functional-requirements)
-	* [ER Diagram](#non-functional-requirements)
-	* [DDL Script](#non-functional-requirements)
-4. [Class Design](#deployment-architecture)
-	* [UML Class Diagram](#non-functional-requirements)
-5. [API Design]
-	* [Swagger Documentation] 
-6. [Application Design]
-	* [Sitemap Design]
-	* [UI Wireframe Design]
-	* [Logical Design]
-7. [Other Design Documentations]
+1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
+2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
+3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
+4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
+5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
+	*[Swagger Documentation]
+6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
+7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
