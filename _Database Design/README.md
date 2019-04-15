@@ -17,6 +17,55 @@
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
 #### DDL-Script
-<p align="center"><img src=""/></p
+'''json
+CREATE TABLE `liquors` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `liquorID` int(11) NOT NULL,
+  `brandName` varchar(45) NOT NULL,
+  `type` varchar(45) NOT NULL,
+  `volume` float NOT NULL,
+  `overflow` int(11) NOT NULL,
+  `alertLevel` int(11) NOT NULL,
+  `liquorcol` varchar(45) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `logs` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `spoutID` int(11) NOT NULL,
+  `liquorID` int(11) NOT NULL,
+  `alert` int(11) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `spoutID_idx` (`spoutID`),
+  KEY `liquorID_idx` (`liquorID`),
+  CONSTRAINT `spoutID` FOREIGN KEY (`spoutID`) REFERENCES `spout_liquor` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `liquorID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `users` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `USERNAME` varchar(45) NOT NULL,
+  `PASSWORD` varchar(45) NOT NULL,
+  `FIRSTNAME` varchar(45) NOT NULL,
+  `LASTNAME` varchar(45) NOT NULL,
+  `EMAIL` varchar(45) NOT NULL,
+  `PERMISSION` int(11) NOT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+CREATE TABLE `spout_liquor` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `spoutID` int(11) NOT NULL,
+  `liquorID` int(11) NOT NULL,
+  `action` int(11) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `liquorID_idx` (`liquorID`),
+  CONSTRAINT `FK_LIQUORID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+''''
 
 Back to [Table of Contents](#Table-of-Contents)
