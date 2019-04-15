@@ -30,18 +30,18 @@ Used to collect data from load scale
 
 **Data constraints**
 
-```json
+```
 {
-    "locationId": "[alphanumeric]",
-    "scaleId": "[integer]",
-    "logQuantity": "[integer]"
+    "locationId": [alphanumeric],
+    "scaleId": [integer],
+    "logQuantity": [integer]
 }
 ```
 | Value | Explanation |
 | ------ | ------ |
-| LocationId | Is a unique number that is generated when a new business is created |
-| scaleID | Is a unique index value from 0-5  |
-| logQuantity | Is a number that represents the amount of volume in ml removed from the bottle |
+| locationId | Is an uniquely random generated value that represents a location of a resturant |
+| scaleId | Is a unique index value from 0-5 that represent the scales value|
+| logQuantity | Is a number that represents the amount of volume in milliliters removed from the bottle\ from when the bottle is removed then placed back on the scale|
 
 **Data example**
 
@@ -68,6 +68,9 @@ Used to collect data from load scale
 
 ## 208 Error Response
 
+**Condition** : If the arduino sends a POSTs from  the scale and the quanity difference is zero,\ it will give a 208 response
+letting the user know that there was no  difference in volume on this call.
+
 **Code** : `208 ALREADY REPORTED`
 
 **Content example**
@@ -81,7 +84,8 @@ Used to collect data from load scale
 
 ## 404 Error Response
 
-**Condition** : If scale does not appear to be registered to the location.
+**Condition** : Each scale must be registered to a location before it can be used.\ If the arduino tries to send a POST, the while the
+scale isnot registered, it will send a 404 error response.
 
 **Code** : `404 NOT FOUND`
 
@@ -96,7 +100,7 @@ Used to collect data from load scale
 
 ## 409 Error Response
 
-**Condition** : If liquor is not associated to the scale.
+**Condition** : If is scaleis registered to a location but not a liquor, it will send a 409 error reponse\ because it does not know which liquor in the inventory to update with the data sent.
 
 **Code** : `409 CONFLILCT`
 
@@ -111,7 +115,7 @@ Used to collect data from load scale
 
 ## 500 Error Response
 
-**Condition** : If there is no connection to server.
+**Condition** : If there is no connection to server, a 500 error reponse will be sent.
 
 **Code** : `500 INTERNAL SERVER ERROR`
 
@@ -137,4 +141,4 @@ Pragma: no-cache
 Expires: 0  
 Connection: close  
 
-{"locationId":"location1","scaleId":0,"logQuantity":60}
+{"locationId":"location1","scaleId":0,"logQuantity":35}
