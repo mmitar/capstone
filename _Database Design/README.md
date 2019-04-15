@@ -18,52 +18,116 @@
 
 #### DDL-Script
 ```ddl
+CREATE DATABASE  IF NOT EXISTS `streamdream` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `streamdream`;
+
+DROP TABLE IF EXISTS `locations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `locations` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `VENDORID` varchar(20) NOT NULL,
+  `LOCATIONID` varchar(20) NOT NULL,
+  `ADDRESS` varchar(100) NOT NULL,
+  `ZIPCODE` varchar(100) NOT NULL,
+  `STATE` varchar(100) NOT NULL,
+  `COUNTRY` varchar(100) NOT NULL,
+  `LICENSENUMBER` varchar(100) NOT NULL,
+  `LICENSEDATE` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `DESCRIPTION` varchar(1000) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `LOCATIONID_UNIQUE` (`LOCATIONID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `liquors`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `liquors` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `liquorID` int(11) NOT NULL,
-  `brandName` varchar(45) NOT NULL,
-  `type` varchar(45) NOT NULL,
-  `volume` float NOT NULL,
-  `overflow` int(11) NOT NULL,
-  `alertLevel` int(11) NOT NULL,
-  `liquorcol` varchar(45) NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
-
-CREATE TABLE `logs` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `spoutID` int(11) NOT NULL,
-  `liquorID` int(11) NOT NULL,
-  `alert` int(11) NOT NULL,
+  `LOCATIONID` varchar(20) NOT NULL,
+  `LIQUORCODE` varchar(20) NOT NULL,
+  `BRANDNAME` varchar(25) NOT NULL,
+  `ALCOHOLTYPE` varchar(25) NOT NULL,
+  `LIQUIDVOLUME` int(11) NOT NULL,
+  `OVERFLOW` int(11) NOT NULL,
+  `ALERTLEVEL` int(11) NOT NULL,
   PRIMARY KEY (`ID`),
-  KEY `spoutID_idx` (`spoutID`),
-  KEY `liquorID_idx` (`liquorID`),
-  CONSTRAINT `spoutID` FOREIGN KEY (`spoutID`) REFERENCES `spout_liquor` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  CONSTRAINT `liquorID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+  UNIQUE KEY `LIQUORCODE_UNIQUE` (`LIQUORCODE`),
+  KEY `FK_LOCATION_ID_idx` (`LOCATIONID`),
+  CONSTRAINT `LOCATIONID_LIQUOR_FK` FOREIGN KEY (`LOCATIONID`) REFERENCES `locations` (`LOCATIONID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 
 
+DROP TABLE IF EXISTS `activity_logs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `activity_logs` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LOCATIONID` varchar(20) NOT NULL,
+  `LOGTIME` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `LOGLEVEL` varchar(5) NOT NULL,
+  `LOGMETHOD` varchar(100) NOT NULL,
+  `LOGUSER` varchar(1000) NOT NULL,
+  `LOGMESSAGE` varchar(1000) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `LOCATIONID_FK_idx` (`LOCATIONID`),
+  CONSTRAINT `LOCATIONID_FK` FOREIGN KEY (`LOCATIONID`) REFERENCES `locations` (`LOCATIONID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `scale_liquor`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scale_liquor` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LOCATIONID` varchar(20) NOT NULL,
+  `SCALEID` int(11) NOT NULL,
+  `LIQUORCODE` varchar(20) NULL,
+  PRIMARY KEY (`ID`),
+  KEY `LOCATIONID_SCALE_FK_idx` (`LOCATIONID`),
+  CONSTRAINT `LOCATIONID_SCALE_FK` FOREIGN KEY (`LOCATIONID`) REFERENCES `locations` (`LOCATIONID`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+DROP TABLE IF EXISTS `scale_logs`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scale_logs` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `LOCATIONID` varchar(20) NOT NULL,
+  `SCALEID` int(11) NOT NULL,
+  `LIQUORCODE` varchar(20) NOT NULL,
+  `LOGTIME` timestamp DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `LOGQUANTITY` float NOT NULL,
+  `LOGMESSAGE` varchar(1000) NOT NULL,
+  PRIMARY KEY (`ID`),
+  KEY `LOCATIONID_SCALE_FK_idx` (`LOCATIONID`),
+  KEY `LIQUOR_SCALELOGS_FK_idx` (`LIQUORCODE`),
+  CONSTRAINT `LOCATIONID_SCALELOGS_FK` FOREIGN KEY (`LOCATIONID`) REFERENCES `locations` (`LOCATIONID`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `LIQUOR_SCALELOGS_FK` FOREIGN KEY (`LIQUORCODE`) REFERENCES `liquors` (`LIQUORCODE`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+
+DROP TABLE IF EXISTS `users`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `users` (
   `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `USERNAME` varchar(45) NOT NULL,
-  `PASSWORD` varchar(45) NOT NULL,
-  `FIRSTNAME` varchar(45) NOT NULL,
-  `LASTNAME` varchar(45) NOT NULL,
-  `EMAIL` varchar(45) NOT NULL,
-  `PERMISSION` int(11) NOT NULL,
+  `USERNAME` varchar(20) NOT NULL,
+  `PASSWORD` varchar(20) NOT NULL,
+  `FIRSTNAME` varchar(20) DEFAULT NULL,
+  `LASTNAME` varchar(20) DEFAULT NULL,
+  `EMAIL` varchar(30) DEFAULT NULL,
+  `PHONE` varchar(14) DEFAULT NULL,
+  `PERMISSION` int(11) DEFAULT NULL,
+  `VENDORID` varchar(20) DEFAULT NULL,
+  `LOCATIONID` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
-
-CREATE TABLE `spout_liquor` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `spoutID` int(11) NOT NULL,
-  `liquorID` int(11) NOT NULL,
-  `action` int(11) NOT NULL,
-  PRIMARY KEY (`ID`),
-  KEY `liquorID_idx` (`liquorID`),
-  CONSTRAINT `FK_LIQUORID` FOREIGN KEY (`liquorID`) REFERENCES `liquors` (`ID`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
 ```
 
 Back to [Table of Contents](#Table-of-Contents)
