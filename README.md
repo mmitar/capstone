@@ -18,19 +18,20 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 ## App Images
 
 ## Arduino Stack
-<img align="left" width="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg"/>  
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg"/>  
 
 Text to the right  
 
----
-<br/>
-<img align="left" width="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/load_scale.jpeg"/>  
+<br/><br/><br/>
+## Info
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/load_scale.jpeg"/>  
 
-``` fancey inform ```  
+``` 
+fancey inform
+```  
 
----
-<br/>
-<img align="left" width="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/scale_ard.jpeg"/>  
+<br/><br/><br/>
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/scale_ard.jpeg"/>  
 
 `chhill bor`  
 
