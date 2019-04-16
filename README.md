@@ -23,7 +23,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 <img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/load_scale.jpeg">  
 
@@ -31,7 +31,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 This 5kg load cell uses the strain gauages to monitor the weight distribution. The HX711 micro controller can track all the small changes made fast, and accurately. A 3D printed base and coaster were printed in specification to the load cell.
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 <img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/scale_ard.jpeg">  
 
@@ -39,7 +39,7 @@ This 5kg load cell uses the strain gauages to monitor the weight distribution. T
 
 Together, the technology from both the Arduino Stack and the HX711 load cell micro controller provide a powerful combination that can provide real time monitoring and `POST` data directly to the server, providing an automation to liquor inventory tracking.
 
-<br/><br/><br/><br/>
+<br/><br/>
 
 ## Application Requirements
 
