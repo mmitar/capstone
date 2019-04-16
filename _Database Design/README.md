@@ -13,11 +13,11 @@
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-### ER-Diagram
+### ER Diagram
 This ER Diagram represents our application database structure. All the tables besides `users` table have foreign key constraints with the locations table on the `LOCATIONID` column. This column is defined as a unique index because of its strict dependency on all the other data associated. In all fields, the foreign key cannot be null and always be defined. This is to support multiple different locations, or businesses, each with its defined infrastructure. Only the `scale_logs` table has another foreign key constraint to the `LIQUORCODE` column from the `liquors` table. Data reported from the scale should never be retained if the liquor code does not exist in the `liquors` table. There are business rules to enforce the foreign key constraints before saving the log to report an accurate message back to the requester. 
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
-### DDL-Script
+### DDL Script
 ```ddl
 CREATE DATABASE  IF NOT EXISTS `streamdream` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `streamdream`;
