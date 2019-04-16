@@ -104,7 +104,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.jpg">  
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/debug%20log.JPG">  
 
 ### Logging Strategy
 
