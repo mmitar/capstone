@@ -40,3 +40,5 @@ Performance is one example of an NFR we implemented since everything through our
 
 ## Operational Support Design
 We are monitoring our entire project by logging every single action taken on the scale. Every time any action is taken on the scale, it will be recorded via logging, not only the action but also the scale ID and Liquor ID (the scale the bottle is on). By doing this every scale will have a full record of all actions taken on that specific scale and if anything should fail or break, we will be able to track all the steps that specific scale took.
+
+Back to Table of Contents(#table-of-contents)
