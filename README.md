@@ -8,7 +8,7 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/developers.JPG">](https://d1wsaxfu7b8rcr.cloudfront.net/1d73e22c-d8ab-4b78-81ba-f42dc84f0b66/GCU%20Today%20Article%202019%20Capstone%20Showcase.pdf)
 
 #### Watch the latest review of the application on `Youtube` below.
-[<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/3njvE3QVbVk "Dream Stream Demo Video")
+[<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/wjjhJc0QOs4 "Dream Stream Demo Video")
 
 ## Table of Contents
 [Home Directory]()
