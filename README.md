@@ -7,6 +7,9 @@ Watch the latest review of the application on Youtube [here](https://www.youtube
 AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
+Our project made the GCU Today Paper
+[<img height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/developers.JPG">](https://d1wsaxfu7b8rcr.cloudfront.net/1d73e22c-d8ab-4b78-81ba-f42dc84f0b66/GCU%20Today%20Article%202019%20Capstone%20Showcase.pdf)
+
 ## Table of Contents
 Home Directory
   * [Embedded System Technology](#Embedded-System-Technology)
@@ -50,6 +53,7 @@ Together, the technology from both the Arduino Stack and the HX711 load cell mic
 ## Application Services
 
 <img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory.JPG"> 
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory.JPG"> 
 
 ### Inventory Management
 
@@ -57,7 +61,7 @@ Input the inventory you plan to monitor. This can be purposed for identifying a 
 
 <br/><br/><br/>
 
-<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Activity.JPG"> 
+<img align="left" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Activity.JPG"> 
 
 ### User Activity Log
 
@@ -74,8 +78,8 @@ Remotely configure your inventory to the scales it will be using. Only inventory
 
 <br/><br/><br/>
 
-<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p1.JPG"> 
-<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p2.JPG"> 
+<img align="left" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p1.JPG"> 
+<img align="left" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p2.JPG"> 
 
 ### Business and Inventory Metrics
 
@@ -83,9 +87,11 @@ Monitor real time data to align your inventory stock and consumption rate expect
 
 <br/><br/><br/>
 
+<br/><br/>
+
 ## DevOps
 
-<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Junit%20Test%20Cases.JPG"> 
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Junit%20Test%20Cases.JPG"> 
 
 ### JUnit Test Cases
 
@@ -93,7 +99,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG">  
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG">  
 
 ### Code Coverage
 
@@ -101,7 +107,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.JPG">  
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.JPG">  
 
 ### Logging Strategy
 
