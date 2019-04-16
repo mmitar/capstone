@@ -2,16 +2,15 @@
 
 
 ## Table of Contents
-[Root Directory](https://github.com/mmitar/capstone)
-1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
-2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
-3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
+[Root Directory](https://github.com/mmitar/capstone)	
+1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
+2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 	* [ER Diagram Design](#ER-Diagram)
 	* [DDL Script](#DDL-Script)
-4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
-5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
-6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
-7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
+3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
+4. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
+5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
+6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ### ER Diagram
 This ER Diagram represents our application database structure. All the tables besides `users` table have foreign key constraints with the locations table on the `LOCATIONID` column. This column is defined as a unique index because of its strict dependency on all the other data associated. In all fields, the foreign key cannot be null and always be defined. This is to support multiple different locations, or businesses, each with its defined infrastructure. Only the `scale_logs` table has another foreign key constraint to the `LIQUORCODE` column from the `liquors` table. Data reported from the scale should never be retained if the liquor code does not exist in the `liquors` table. There are business rules to enforce the foreign key constraints before saving the log to report an accurate message back to the requester. 

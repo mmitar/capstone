@@ -1,12 +1,11 @@
 # [API Design Documentation](https://github.com/mmitar/capstone/tree/master/_API%20Design)
 
 ## Table of Contents 
-[Home Directory](https://github.com/mmitar/capstone)
-1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
-2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
-3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
-4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
-5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
+[Home Directory](https://github.com/mmitar/capstone)	
+1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
+2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
+3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
+4. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
 	* [Log Scale Action](#Log-Scale-Action)
 	* [201 Success Response](#201-Success-Response)
 	* [208 Error Response](#208-Error-Response)
@@ -14,8 +13,8 @@
 	* [409 Error Response](#409-Error-Response)
 	* [500 Error Response](#500-Error-Response)
 	* [Sample Call](#Sample-Call)
-6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
-7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
+5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
+6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 # Log Scale Action
 This API is used for collecting data from the Load scale that is connected to are arduino. The Arduino sends a POSTs, whenever in action is taken on any scale. The data sent is what we keep our inventory updated with and along with updating our analytics data.
