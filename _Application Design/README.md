@@ -12,6 +12,7 @@
 	* [Sitemap Design](#Sitemap-Design)
 	* [UI Wireframe Design](#Wireframe-Design)
 	* [Sequence Diagram Design](#Sequence-Diagram-Design)
+	* [Custom Exception Events](#custom-exception-events)
 	* [Block Diagram Design](#Block-Diagram-Design)
 	* [Use Case Diagram Design](#Use-Case-Diagram-Design)
 6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
@@ -35,6 +36,33 @@ The wireframes represent the views the application will use. Some of the pages s
 ### Sequence Diagram Design
 This sequence diagram represents the sequential order of the request chain and all the classes, models, services, logic, and exceptions that the Arduino scale HTTP POST to REST API service uses to validate the request, save the log if possible, and return a response based on the result. Once the Arduino POSTs to the server, the API has an open endpoint to accept the request. Following the lifecyles chain, the REST service requests help from the `ScaleBusinessService`, calling a method called `saveScaleLog()`. The method takes the data and checks the database to see if the `scaleId` is registered to the `locationId`. If the data returns null, a `ScaleNotFoundException` is thrown, cancelling the rest of the request. If a scale exists to the location, the next check is to see if the scale is associated with a `liquorCode`. A `LiquorNotFoundException` is thrown if no liquor is associated to the scale because the calculated drink data has to have a liquor reference. Before saving the log, a check of the quantity amount is checked. If the amount is vastly negative, that means the bottle was replaced as decremented liquor differences are positive values. The liquor’s inventory quantity is adjusted accordingly in that case. If the log quantity is a standard positive value, it is saved as a normal log. If an exception was thrown at any point, the REST service will proceed to assemble a response based on the exception thrown. If the response was successfully saved and no issues were encountered, then a successful rest response is returned. All REST responses are assembled within a data transfer object, wrapped in a Response Entity, to which we can set the HTTP Status reflecting the response result.
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Scale%20POST%20Sequence%20Diagram.png"/></p>
+
+## Custom Exception Events
+This code snippet resembles the business rule being enforced by validating the data before proceeding with the request. If the data does not meet the standard to finish the request, an exception is thrown and a response is handled. This snippet emmulates a request submitted from the controller.
+
+#### try-block
+Controller requests are encapsulated in a try-catch block to support custom exception handling used to enforce rules from the business layer.
+```java
+try {
+	User verifiedUser = userService.authenticateUser(user);
+}
+```
+#### throw-exception
+The business layer enforces logic that identifys if the data access layer returned a valid user based on the credentials.
+```java
+if(userDAO.find(user) == null) {
+	throw new UserNotFoundException();
+}
+```
+#### catch-block
+If an exception is thrown from the business layer, the controller will catch the exception, and can tailor a proper response for the user.
+```java
+catch(UserNotFoundException e) {
+	ModelAndView mv = new ModelAndView("login");
+	mv.addObject("error", "Username or Password is incorrect.");
+	return mv;
+}
+```
 
 ### Block Diagram Design
 The block diagram represents the areas of necessary input, from either the user or the scale data sent to the server in order to produce the desired output, or purpose of the application.
