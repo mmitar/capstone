@@ -2,6 +2,7 @@
 Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, applications features, and devOps integrated into the application!
 
 #### If your interested in the applications `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
+**Note:** If you've visited the JavaDoc before, clear cache or go incognito to view any updates.
 
 #### `Update!` Our project made the GCU Today Paper! Click the image to view the good news.
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/developers.JPG">](https://d1wsaxfu7b8rcr.cloudfront.net/1d73e22c-d8ab-4b78-81ba-f42dc84f0b66/GCU%20Today%20Article%202019%20Capstone%20Showcase.pdf)
