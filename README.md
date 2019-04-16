@@ -15,7 +15,7 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-## App Images
+## Embedded System Technology
 
 <img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg">  
 
@@ -38,6 +38,34 @@ This 5kg load cell uses the strain gauages to monitor the weight distribution. T
 ### Arduino Wired to the Scale
 
 Together, the technology from both the Arduino Stack and the HX711 load cell micro controller provide a powerful combination that can provide real time monitoring and `POST` data directly to the server, providing an automation to liquor inventory tracking.
+
+<br/><br/>
+
+## Application Services
+
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg">  
+
+### Arduino Stack
+
+The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+
+<br/><br/>
+
+## DevOps
+
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG">  
+
+### Code Coverage
+
+The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+
+<br/><br/>
+
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Junit%20Test%20Cases.JPG">  
+
+### JUnit Test Cases
+
+The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
 
 <br/><br/>
 
