@@ -45,13 +45,21 @@ Together, the technology from both the Arduino Stack and the HX711 load cell mic
 
 <img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg">  
 
-### Arduino Stack
+### Inventory Management
 
 The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
 
 <br/><br/>
 
 ## DevOps
+
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Junit%20Test%20Cases.JPG"> 
+
+### JUnit Test Cases
+
+The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+
+<br/><br/>
 
 <img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG">  
 
@@ -61,13 +69,15 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Junit%20Test%20Cases.JPG">  
+<img align="left" width="300" height="50" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Log%20Head.JPG">  
+<img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.JPG">  
 
-### JUnit Test Cases
+### Logging Strategy
 
 The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
 
 <br/><br/>
+
 
 ## Application Requirements
 
