@@ -7,7 +7,7 @@
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 	* [ER Diagram Design](#ER-Diagram)
 	* [Data Table Dictionary](#Data-Table-Dictionary)
-		* ['users' Database Table](#'users'-Database-Table:)
+		* [users Database Table](#users-Database-Table:)
 		* ['locations' Database Table](#'locations'-Database-Table:)
 		* ['liquors' Database Table](#'liquors'-Database-Table:)
 		* ['scale_liquor' Database Table](#'scale_liquor'-Database-Table:)
@@ -25,6 +25,7 @@ This ER Diagram represents our application database structure. All the tables be
 
 ### Data Table Dictionary
 #### 'users' Database Table:
+
 |    Column Name    |    Data Type    |    Character Length    |    Required?    |    Description                                                                                              |
 |-------------------|-----------------|------------------------|-----------------|-------------------------------------------------------------------------------------------------------------|
 |    ID             |    INT          |    11                  |    Y            |    Primary Key, Auto Incrementing                                                                           |
