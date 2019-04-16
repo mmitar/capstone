@@ -1,5 +1,5 @@
 # The Dream Stream Documentation Development
-Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, services, and devOps integrated into the application!
+Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, applications features, and devOps integrated into the application!
 
 #### If your interested in the applications `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
 
@@ -10,10 +10,10 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/3njvE3QVbVk "Dream Stream Demo Video")
 
 ## Table of Contents
-Home Directory
- * [Embedded System Technology](#Embedded-System-Technology)
- * [Application Services](#application-services)
- * [DevOps](#devops)
+[Home Directory]()
+      * [Embedded System Technology](#Embedded-System-Technology)
+      * [Application Features](#application-features)
+      * [DevOps](#devops)
 1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
@@ -47,7 +47,7 @@ Together, the technology from both the Arduino Stack and the HX711 load cell mic
 
 <br/><br/>
 
-## Application Services
+## Application Features
 
 <img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory.JPG"> 
 <img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory3.JPG"> 
@@ -92,7 +92,7 @@ Monitor real time data to align your inventory stock and consumption rate expect
 
 ### JUnit Test Cases
 
-The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+Our application integrates JUnit into the development process so that after a new module integration, or any significant changes to a service function, we can pinpoint any services that have bugs after changes in under 5 seconds. JUnit is also integrated into the war file build, to ensure all services are opperable before deployment.
 
 <br/><br/>
 
@@ -100,7 +100,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 ### Code Coverage
 
-The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+JUnit alone is a huge utility, but what more so can help developers realize what code is actually being executed, is use a Code Coverage tool. We went with EclEmma to give a detailed synopsis over what lines are being executed. We can further configure the percentage of lines covered to successfully build a war file.
 
 <br/><br/>
 
@@ -108,7 +108,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 ### Logging Strategy
 
-The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+Our application utilizes the LOG4J logging implementation wrapped with the SLF4J framework specification. This is so we can monitor all the activity that happens thoughout the application. We took it a step further and used this tool to provide the `User Activity Logs` feature within the application.
 
 <br/><br/>
 
