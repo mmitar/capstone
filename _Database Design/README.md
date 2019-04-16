@@ -24,7 +24,7 @@ This ER Diagram represents our application database structure. All the tables be
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Database%20Design/ER.png"/></p>
 
 ### Data Table Dictionary
-#### 'users' Database Table:
+#### users Database Table:
 
 |    Column Name    |    Data Type    |    Character Length    |    Required?    |    Description                                                                                              |
 |-------------------|-----------------|------------------------|-----------------|-------------------------------------------------------------------------------------------------------------|
