@@ -14,7 +14,6 @@
 	* [409 Error Respoonse](#409-Error-Response)
 	* [500 Error Respoonse](#500-Error-Response)
 	* [Sample Call](#Sample-Call)
-	
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
