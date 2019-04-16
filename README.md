@@ -113,24 +113,5 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 <br/><br/>
 
 
-## Design Proofs and Technologies
-
-### Proof of Concepts
-
-### Hardware and Software Technologies
-| | |
-| --- | --- |
-AWS Elastic Beanstalk | Spring MVC Framekwork 4.3 |
-Dynamic Web Application Framework 3.1 | Eclipse Oxygen IDE 3.0 |
-JDK Compile Environment 1.8 | Tomcat Server 8.5 |
-Java 8 | MySQL DB Connector Library for Java 5.1 |
-Spring JDBC 4.3 | JAX-RS JSON provider 2.4 |
-Servlet REST API 2.3 | JUnit Testing 4.12 |
-SLF4J 1.7 / LOG4J 1.2 | MAMP |
-MySQL Workbench | AWS Cloud Platform |
-HTML / CSS / JavaScript 5.0 | JQuery 3.3 |
-SVG | JSTL 1.2 |
-Tiles 3.0 | Arduino Uno Elegoo |
-ESP8266 Wifi Module | HX711 Load Scale Module |
-Google Charting API | REST APIs
+Back to [Table of Contents](#Table-of-Contents)
 
