@@ -12,6 +12,7 @@
 6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ### Class Diagram
+The UML class diagram is the totality of the applications classes and models. Each class shows what class level fields or objects are being used. Services that are injected to the class via Context Dependency Injection will be @Autowired , its methods, parameters, return types, used exceptions, models, and who is using what. This diagram goes into great detail to also show the relationships between services and their respective interfaces, as well as any classes using services with arrows. Because our application using the N-Layer Architecture design pattern, we colored all the controllers and models in blue, the business services in green, data access objects in yellow, and utility classes in purple. Also, the request pipeline complies with that principle, controllers call business services for help, and business services call other services or their respective data access objects to connect to the database. Some models have protected visibility level fields because there are JUnit Testing models that extends them
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Class%20Diagram.png"/></p>
 
 ### Component Diagram
