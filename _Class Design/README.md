@@ -16,6 +16,7 @@ The UML class diagram is the totality of the applications classes and models. Ea
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Class%20Diagram.png"/></p>
 
 ### Component Diagram
+The component diagram resembles the same design pattern philosophy demonstrated in the UML class diagram. The color conventions match, such that the `controllers` are blue, the `business services` are green, `data access objects` are yellow. However, this diagram does better to show the `N-Layer` design pattern by encapsulating the respective classes within a `<<SubSystem>>`. The diagram represents the interfaces the classes request the service from and what ports are available to use. While `controllers` can request the use of any `interface` from the Business Layer subsystem, those services only request the help from their respective Data Access Layer subsystem. Classes within the business layer subsystem will also request help from each other to accomplish the task as necessary. The Arduino embedded device is its only entity, interfacing via HTTP `POST` to the `RestBusinessService`. All Data Access Layer classes have a `JDBC` connection to the database.
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Component.png"/></p>
 
 Back to [Table of Contents](#Table-of-Contents)
