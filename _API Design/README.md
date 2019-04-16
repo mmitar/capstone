@@ -7,7 +7,14 @@
 3. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
 5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
-	* [Swagger Documentation](https://github.com/mmitar/capstone/tree/master/_API%20Design)
+	* [Log Scale Action](#Log-Scale-Action)
+	* [201 Success Response](#201-Success-Response)
+	* [208 Error Respoonse](#208-Error-Response)
+	* [404 Error Respoonse](#404-Error-Response)
+	* [409 Error Respoonse](#409-Error-Response)
+	* [500 Error Respoonse](#500-Error-Response)
+	* [Sample Call](#Sample-Call)
+	
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
