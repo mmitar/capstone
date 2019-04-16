@@ -100,7 +100,7 @@ Our application integrates JUnit into the development process so that after a ne
 
 ### Code Coverage
 
-JUnit alone is a huge utility, but what more so can help developers realize what code is actually being executed, is use a Code Coverage tool. We went with EclEmma to give a detailed synopsis over what lines are being executed. We can further configure the percentage of lines covered to successfully build a war file.
+JUnit alone is a huge utility, but what more so can help developers realize what code is actually being executed, is use a Code Coverage tool. We went with EclEmma to give a detailed synopsis over what lines are being executed. We can further configure the percentage of lines covered as a requirement to successfully build a war file.
 
 <br/><br/>
 
