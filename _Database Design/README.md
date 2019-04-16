@@ -7,7 +7,7 @@
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 	* [ER Diagram Design](#ER-Diagram)
 	* [Data Table Dictionary](#Data-Table-Dictionary)
-		* [users Database Table](#'users'-Database-Table:)
+		* ['users' Database Table](#'users'-Databse-Table:)
 		* ['locations' Database Table](#'locations'-Database-Table:)
 		* ['liquors' Database Table](#'liquors'-Database-Table:)
 		* ['scale_liquor' Database Table](#'scale_liquor'-Database-Table:)
