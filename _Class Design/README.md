@@ -12,10 +12,10 @@
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-### Class-Diagram
+### Class Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Class%20Diagram.png"/></p>
 
-### Component-Diagram
+### Component Diagram
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Class%20Design/Component.png"/></p>
 
 Back to [Table of Contents](#Table-of-Contents)
