@@ -8,34 +8,34 @@
 4. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
 5. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
-	* [Application-Flowchart Design](#Application-Flowchart-Diagram)
+	* [Application-Flowchart Design](#Application-Flowchart-Diagram-Design)
 	* [Scale-Flowchart Design](#Scale-Flowchart-Diagram)
-	* [Sitemap Design](#Sitemap-Diagram)
-	* [UI Wireframe Design](#Wireframe-Diagram)
-	* [Sequence Diagram Design](#Sequence-Diagram)
-	* [Block Diagram Design](#Block-Diagram)
-	* [Use Case Diagram Design](#Use-Case-Diagram)
+	* [Sitemap Design](#Sitemap-Diagram-Design)
+	* [UI Wireframe Design](#Wireframe-Diagram-Design)
+	* [Sequence Diagram Design](#Sequence-Diagram-Design)
+	* [Block Diagram Design](#Block-Diagram-Design)
+	* [Use Case Diagram Design](#Use-Case-Diagram-Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-### Application-Flowchart
+### Application Flowchart Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/App%20Flowchart.png"/></p>
 
-### Scale-Flowchart
+### Scale Flowchart Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/ScaleFlowChart.png"/></p>
 
-### Sitemap
+### Sitemap Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Sitemap.png"/></p>
 
-### Wireframe
+### Wireframe Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Wireframes.png"/></p>
 
-### Sequence-Diagram
+### Sequence Diagram Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Scale%20POST%20Sequence%20Diagram.png"/></p>
 
-### Block-Diagram
+### Block Diagram Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Block%20Diagram.png"/></p>
 
-### Use-Case-Diagram
+### Use Case Diagram Design
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_Application%20Design/Use%20Case.png"/></p>
 
 Back to [Table of Contents](#Table-of-Contents)
