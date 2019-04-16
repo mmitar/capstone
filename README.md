@@ -17,11 +17,11 @@ View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
 ## App Images
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Activity.JPG"/></p>
-<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG"/></p>
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p1.JPG"/></p>
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p2.JPG"/></p>
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Scale%20Config.JPG"/></p>
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory.JPG"/></p>
+<p align="center"><img src="https://github.com/mmitar/capstone/blob/master/App%20Images/Code%20Coverage.JPG"/></p>
 
 
 
