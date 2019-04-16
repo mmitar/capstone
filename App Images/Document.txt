@@ -1,0 +1,11 @@
+Scale Config:
+Remotely configure your inventory to the scales it will be using. Only inventory that is unbinded can be applied to a scale. Add more scales based on your business requirements. Remove scales you don't plan to use.
+
+Inventory:
+Input the inventory you plan to monitor. This can be purposed for identifying a units popularity, tracking its general traffic, or to be notified during low inventory levels. In the future we hope to automate this feature further.
+
+Activity Log:
+Track user activity through this logging utility. Keep users will access to the application accountable for their actions after they've modified your business's inventory or reconfigured a scale. All the data in context is provided.
+
+Metrics
+Monitor real time data to align your inventory stock and consumption rate expectations with your business strategy. Analytics help identify the most popular drinks and stay on top of the competition by giving you up-to-date information to help inform your next move.
