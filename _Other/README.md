@@ -11,7 +11,7 @@
    * [General Technical Approach](#general-technical-approach)
    * [Hardware and Software Technologies](#Hardware-and-Software-Technologies)
    * [Security Design](#security-design)
-   * [Design Proofs and Technologies](#design-proofs-and-technologies)
+   * [Operational Support Design](#operational-support-design)
   
 ## General Technical Approach
 Our key general technical approach was to design the scale to be simple, easy to use and compact. One of the ways we did this was we found the smallest parts for the physical scale we were able to, while keeping our scope for the project. We also decided to find chargeable scale, to help minimize the size of the product and to help keep cost down for our customers.
