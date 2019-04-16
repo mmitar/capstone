@@ -1,7 +1,7 @@
 # [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)
 
 ## Table of Contents
-[Root Directory](https://github.com/mmitar/capstone)
+[Home Directory](https://github.com/mmitar/capstone)
 1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)
