@@ -16,7 +16,7 @@
 6. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 7. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
-## Locical Design
+## Logical Design
 
 ### N-layer-Architecture Local Design
 The application is developed with an N-Layer architecture that uses an inversion of control philosophy. As represented in the picture, each layer of the design is established within its own section, communicating between each other by the required protocols or data channels. Each layer emphasizes its own logic and using its own technologies to accomplish the task. Users implement requests to the Presentation Layer from the Client Layer. The Presentation Layer behaves as the request handler and well ask help from business services to accomplish the task that was requested by the client. The Business Layer has rules defined to ensure compliance from the request, making sure the data being handled is sufficient to fully accomplish the task and will assemble or modify the data as necessary. However, the Data Access Layer is defined to communicate with the database directly. The Business Layer may request the help from Data Layer to get information from the database to either ensure business rules or to accomplish the initial request. This application utilizes an Arduino for real-time data monitoring. The data is submitted to the server’s REST application programming interface, that has an open endpoint for the HTTP POST request to be handled.
