@@ -1,4 +1,5 @@
-# The Dream Stream Development
+<h1 align="center">The Dream Stream | Development Hub</h1>
+
 Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, applications features, and devOps integrated into the application!
 
 #### If your interested in the application's `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
