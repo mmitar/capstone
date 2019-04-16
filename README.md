@@ -7,7 +7,13 @@ Watch the latest review of the application on Youtube [here](https://www.youtube
 AWS website [dreamstream website](http://thedreamstream.us-east-2.elasticbeanstalk.com)  
 View all the Java documentation [here](https://mmitar.github.io/capstone/)
 
-## Table of Contents	
+## Table of Contents
+Home Directory
+  * [Embedded System Technology](#Embedded-System-Technology)
+    * [Arduino Stack](#Arduino-Stack)
+    * [Load Scale](#Load-Scale)
+    * [Arduino Wired to the Scale](#Arduino-wired-to-the-scale)
+
 1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
@@ -43,13 +49,39 @@ Together, the technology from both the Arduino Stack and the HX711 load cell mic
 
 ## Application Services
 
-<img align="right" width="100" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory2.JPG">  
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory.JPG"> 
 
 ### Inventory Management
 
-The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a prototype shield for good affect, and the HX711 Load cell micro controller. With the proper pinning and I/O port configuration, we have the stack ready to ready to POST data to the server. 
+Input the inventory you plan to monitor. This can be purposed for identifying a units popularity, tracking its general traffic, or to be notified during low inventory levels. In the future we hope to automate this feature further.
 
-<br/><br/>
+<br/><br/><br/>
+
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Activity.JPG"> 
+
+### User Activity Log
+
+Track user activity through this logging utility. Keep users will access to the application accountable for their actions after they've modified your business's inventory or reconfigured a scale. All the data in context is provided.
+
+<br/><br/><br/>
+
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Scale%20Config.JPG"> 
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Scale%20config%20pg2.JPG"> 
+
+### Scale Configuration View
+
+Remotely configure your inventory to the scales it will be using. Only inventory that is unbinded can be applied to a scale. Add more scales based on your business requirements. Remove scales you don't plan to use. 
+
+<br/><br/><br/>
+
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p1.JPG"> 
+<img align="right" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Metrics%20p2.JPG"> 
+
+### Business and Inventory Metrics
+
+Monitor real time data to align your inventory stock and consumption rate expectations with your business strategy. Analytics help identify the most popular drinks and stay on top of the competition by giving you up-to-date information to help inform your next move.
+
+<br/><br/><br/>
 
 ## DevOps
 
@@ -80,10 +112,12 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 ## Application Requirements
 
-### Functional Requirements
+### Proof of Concepts
+
+### Hardware and Software Technologies
 | | |
 | --- | --- |
-AWS Elastic Beanstalk | Spring MVC Framekwork 3.0 |
+AWS Elastic Beanstalk | Spring MVC Framekwork 4.3 |
 Dynamic Web Application Framework 3.1 | Eclipse Oxygen IDE 3.0 |
 JDK Compile Environment 1.8 | Tomcat Server 8.5 |
 Java 8 | MySQL DB Connector Library for Java 5.1 |
@@ -96,19 +130,4 @@ SVG | JSTL 1.2 |
 Tiles 3.0 | Arduino Uno Elegoo |
 ESP8266 Wifi Module | HX711 Load Scale Module |
 Google Charting API | REST APIs
-
-### Non-Functional Requirements
-* Monitor user activity on the application
-* Monitor liquor activity via Arduino Embedded System
-* Notify vendors for liquor use violations
-* Configure Spouts to Liquor association
-* Consume data and provide reporting for locations and vendors
-* Vendors can add locations
-* Vendors can modify locations they oversee
-* Vendors can add users to locations
-* Location managers can implement all CRUD methods on liquor for inventory management
-* Accessible from all access points
-* Secure Login with permission-based actions
-
-
 
