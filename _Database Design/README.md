@@ -8,7 +8,7 @@
 	* [ER Diagram Design](#ER-Diagram)
 	* [Data Table Dictionary](#Data-Table-Dictionary)
 	* [users Database Table](#users-Database-Table)
-		* ['locations' Database Table](#'locations'-Database-Table:)
+	* ['locations' Database Table](#'locations'-Database-Table:)
 		* ['liquors' Database Table](#'liquors'-Database-Table:)
 		* ['scale_liquor' Database Table](#'scale_liquor'-Database-Table:)
 		* ['scale_logs' Database Table](#'scale_logs'-Database-Table:)
