@@ -4,8 +4,8 @@
 [Home Directory](https://github.com/mmitar/capstone)
 1. [Proof of Concepts](https://github.com/mmitar/capstone/tree/master/_Proof%20of%20Concept)	
 2. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
-	* [Logical Design](#logical-design)
-		* [N-Layer Architecture](#N-Layer-Local-Design)
+	* [Logical Design](#Logical-Design)
+		* [N-Layer Architecture](#N-Layer-Architecture-Local-Design)
 	* [Physical Design](#physical-design)
 		* [1-Tier Architecture](#1-Tier-Architecture-Physical-Design)
 		* [3-Tier Architecture](#3-Tier-Architecture-Physical-Design)
@@ -31,7 +31,7 @@ This design is of a local hosted environment resembling a 1 Tier Architecture. A
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%201%20Architecture.png"/></p>
 
 
-### 1-Tier Architecture Physical Design
+### 3-Tier Architecture Physical Design
 This design is of the application and the database being hosted on AWS resembling a 3 Tier Architecture. All the technology the application utilizes are remote from each other, on different networks, which means the physical solution during project’s deployment is truly partitioned.
 <p align="center"><img src="https://github.com/mmitar/capstone/blob/master/_System%20Design/N-Tier%203%20Architecture.png"/></p>
 
