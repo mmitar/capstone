@@ -43,7 +43,7 @@ Together, the technology from both the Arduino Stack and the HX711 load cell mic
 
 ## Application Services
 
-<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/arduino.jpeg">  
+<img align="right" width="100" height="300" src="https://github.com/mmitar/capstone/blob/master/App%20Images/inventory2.JPG">  
 
 ### Inventory Management
 
@@ -69,7 +69,6 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="left" width="300" height="50" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Log%20Head.JPG">  
 <img align="left" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.JPG">  
 
 ### Logging Strategy
