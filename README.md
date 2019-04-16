@@ -11,11 +11,9 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 
 ## Table of Contents
 Home Directory
-  * [Embedded System Technology](#Embedded-System-Technology)
-    * [Arduino Stack](#Arduino-Stack)
-    * [Load Scale](#Load-Scale)
-    * [Arduino Wired to the Scale](#Arduino-wired-to-the-scale)
-
+ * [Embedded System Technology](#Embedded-System-Technology)
+ * [Application Services](#application-services)
+ * [DevOps](#devops)
 1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
@@ -106,7 +104,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 
 <br/><br/>
 
-<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.JPG">  
+<img align="right" width="300" height="200" src="https://github.com/mmitar/capstone/blob/master/App%20Images/Logging.jpg">  
 
 ### Logging Strategy
 
@@ -115,7 +113,7 @@ The Arduino stack is comprised of the Arduino Uno R3, an ESP8266 Wifi Shield, a 
 <br/><br/>
 
 
-## Application Requirements
+## Design Proofs and Technologies
 
 ### Proof of Concepts
 
