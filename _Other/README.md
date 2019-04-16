@@ -8,10 +8,10 @@
 4. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
 5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
-  * [General Technical Approach](#general-technical-approach)
-  * [Hardware and Software Technologies](#Hardware-and-Software-Technologies)
-  * [Security Design](#security-design)
-  * [Design Proofs and Technologies](#design-proofs-and-technologies)
+   * [General Technical Approach](#general-technical-approach)
+   * [Hardware and Software Technologies](#Hardware-and-Software-Technologies)
+   * [Security Design](#security-design)
+   * [Design Proofs and Technologies](#design-proofs-and-technologies)
   
 ## General Technical Approach
 Our key general technical approach was to design the scale to be simple, easy to use and compact. One of the ways we did this was we found the smallest parts for the physical scale we were able to, while keeping our scope for the project. We also decided to find chargeable scale, to help minimize the size of the product and to help keep cost down for our customers.
