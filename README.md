@@ -11,11 +11,11 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/wjjhJc0QOs4 "Dream Stream Demo Video")
 
 ## Table of Contents
-Home Directory
-     * [Embedded System Technology](#Embedded-System-Technology)
-     * [Application Features](#application-features)
-     * [DevOps](#devops)
-     * [Proof of Concepts](#proof-of-concepts)
+[Home Directory](https://github.com/mmitar/capstone)  
+        [Embedded System Technology](#Embedded-System-Technology)  
+        [Application Features](#application-features)  
+        [DevOps](#devops)  
+        [Proof of Concepts](#proof-of-concepts)
 1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
 2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
 3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
