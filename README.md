@@ -14,8 +14,6 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
 6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
----
-
 ### If your interested in the application's `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
 **Note:** If you've visited the JavaDoc before, clear cache or go incognito to view the most recent revision.
 
@@ -24,6 +22,8 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 
 #### Watch the latest review of the application on `Youtube` below.
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/wjjhJc0QOs4 "Dream Stream Demo Video")
+
+---
 
 ## Embedded System Technology
 
