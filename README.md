@@ -2,7 +2,21 @@
 
 Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, applications features, and devOps integrated into the application!
 
-#### If your interested in the application's `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
+## Table of Contents  
+[Embedded System Technology](#Embedded-System-Technology)  
+[Application Features](#application-features)  
+[DevOps](#devops)  
+[Proof of Concepts](#proof-of-concepts)
+1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
+2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)
+3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)
+4. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
+5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
+6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
+
+---
+
+### If your interested in the application's `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
 **Note:** If you've visited the JavaDoc before, clear cache or go incognito to view any updates.
 
 #### `Update!` Our project made the GCU Today Paper! Click the image to view the good news.
@@ -10,18 +24,6 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 
 #### Watch the latest review of the application on `Youtube` below.
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/wjjhJc0QOs4 "Dream Stream Demo Video")
-
-## Table of Contents  
-[Embedded System Technology](#Embedded-System-Technology)  
-[Application Features](#application-features)  
-[DevOps](#devops)  
-[Proof of Concepts](#proof-of-concepts)
-1. [System Design](https://github.com/mmitar/capstone/tree/master/_System%20Design)
-2. [Database Design](https://github.com/mmitar/capstone/tree/master/_Database%20Design)	
-3. [Class Design](https://github.com/mmitar/capstone/tree/master/_Class%20Design)	
-4. [API Design](https://github.com/mmitar/capstone/tree/master/_API%20Design)
-5. [Application Design](https://github.com/mmitar/capstone/tree/master/_Application%20Design)
-6. [Other Design Documentations](https://github.com/mmitar/capstone/tree/master/_Other)
 
 ## Embedded System Technology
 
