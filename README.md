@@ -1,6 +1,18 @@
 <h1 align="center">The Dream Stream | Development Hub</h1>
 
-Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstalk.com) to check out the features the application has to offer. Or scroll down more to get a preview of the technology, applications features, and devOps integrated into the application!
+We designed an untapped industry solution to accurately monitor liquor consumption, reducing waste by 25%! 
+
+- Enterprise Resource Planning (ERP) software that monitors employee activity and product consumption via IOT scales. Outputs metrics on profits and product popularity.
+- Enables businesses to align analytics with their business strategy and get a competitive edge by knowing what drinks to promote.
+- Embedded Systems consume usage data and POSTs to the server via REST API.
+- Provides users an interface to remotely configure scales to a unique inventory and stocking infrastructure.
+- Regression tested with JUnit implemented for development and app build test coverage leveraging Surefire to ensure service availability.
+- Responsive web app, fully functional on all devices and viewports.
+
+<h2 align="center">`Update!` Our project headlined the GCU News! Click below to get the scoop.</h2> 
+<p align="center">
+  <a href="https://news.gcu.edu/gcu-news/showcase-shows-ingenuity-of-engineering-tech-students/"><img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/developers.JPG"></a>
+</p>
 
 ## Table of Contents  
 [Embedded System Technology](#Embedded-System-Technology)  
@@ -16,9 +28,6 @@ Visit the [Dream Stream website](http://thedreamstream.us-east-2.elasticbeanstal
 
 ### If your interested in the application's `JavaDoc`, you can view all of it [HERE](https://mmitar.github.io/capstone/).
 **Note:** If you've visited the JavaDoc before, clear cache or go incognito to view the latest revision.
-
-#### `Update!` Our project made the GCU Today Paper! Click the image to view the good news.
-[<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/developers.JPG">](https://d1wsaxfu7b8rcr.cloudfront.net/1d73e22c-d8ab-4b78-81ba-f42dc84f0b66/GCU%20Today%20Article%202019%20Capstone%20Showcase.pdf)
 
 #### Watch the latest review of the application on `Youtube` below.
 [<img width="600" src="https://github.com/mmitar/capstone/blob/master/App%20Images/thumbnail.JPG">](https://youtu.be/wjjhJc0QOs4 "Dream Stream Demo Video")
